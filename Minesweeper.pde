@@ -145,7 +145,7 @@ public class MSButton
             for(int r = myRow-1; r< myRow+2; r++){
                 for(int c = myCol-1; c < myCol+2; c++){
                     if(isValid(r,c) && !buttons[r][c].clicked){
-                        System.out.println(r + "," + c +" is " + isValid(r,c));
+                        
                         buttons[r][c].mousePressed();
 
                     }
